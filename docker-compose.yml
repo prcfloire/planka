@@ -11,9 +11,34 @@ services:
     ports:
       - 3000:1337
     environment:
-      - BASE_URL=http://localhost:3000
-      - DATABASE_URL=postgresql://postgres@postgres/planka
-      - SECRET_KEY=notsecretkey
+      - BASE_URL=https://planka-prcf.onrender.com
+      - DATABASE_URL=postgresql://planka_db_tu9p_user:IWZkYxUReqQjVf4M37tfRCPs9CZ8HSV9@dpg-cvrrvdjuibrs73bpgt00-a.frankfurt-postgres.render.com/planka_db_tu9p
+      - SECRET_KEY=MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDe6S6EXlgmfSl2
+TKctJEtCaDq/OzYDXjLNd+8/LTh20gH6aCcyqciODkhLo0BFpOTr+H8Us76ECl/1
+YSj+ozRrrWtlvd6Tl0IrqG+pzzcELE+Q2ea7wOICflfI9jakqtq1hSGesr2lEa2i
+l0HfGXndpRcuh12tRze0WKFTfjLBb01VIZt5JmCBtc/A/KExTv8nOv5FyiCmKXwM
+2SPaMz/vpeermZfyVfW0e5jhKiwn5gCUyhTMw+FKGwqlQxVvOAwV8A/RVlnInEXD
+xcOBE/dRMGcLvk7FnfFJFxmF8zw6iOpcee1urCxqWVd9ohHCSO5dlPUqx8W001Qf
+r4SwnjyPAgMBAAECggEBAJFBfjB/kg2yrdwK4z2FUw15Ah8vJGlZbt15dAvFGfBD
+tUpJqJFZFfmL0QyI2w8G/q3OBnGlF1bPs+wgXihgjX5FSaDI80tV26a7YdhT0VQE
+0+xeMf7TF/PsBKRN3Rm8xDxY/ql9bBsuw+kZi7En1sPaGpsVVrPdnq0EvEu+BrEI
+8OQ74pCjNDr90JLA1kjSc6IKR5mBVarpY3sFCHPmg7E7vHu3t0SKTJGvbRLV7ysg
+YxLJTFbg8Vh/cWr2nfPE/THIzWhfc/o99WuvKCDyZYtxYQw82jQohpdhAUEhgYch
+vvbo1hp3+iSmFMMZm07gLsM16oCwRm5x9Zz5HyXVG9ECgYEA91kWBL/ZEv1guhoX
+4vLpZe6NZYrk7ZqSwMhTqGi9a5fnL5CCTINEYZn2Cd3ryZd8nv33QA7KTiruAvI2
+eCn4NXZKT9RrdyySPn2/CPh7CfqKZp8y+DW6jgMtpRJN/AG1PLSppF8V6lpVCF5H
+4GIxMqRL6xFh1PiLhVqmEkekOXMCgYEA5rVFFT11H/hA02vsZdns0bLJO7iZjdkb
+5wNMZ+58ub2keiBRJb00BzKVZDj43G/440EsGyDN2YMikHFitqYXJ3LPDoVALCbM
+tPvJicYfGr3YAS59dtqu0uD3qHJuGQa6upBN8o2Es9ufsHpGN4LEjl+LQZGF1hRo
+rliRiGFNWXUCgYEAlTknsYHUgkJewqfPVVnbOWWr5GDhL/+bHbc90VIvROQF04pJ
+McPX01JBPz6la596zajGK91Aa9w2b4yVE/WuCwLsXjD3DJTVPeI7CDxwblq6eKL+
+6wPvIpIETZw3dBvLrW4JEmNTI2mP91Z54oMaz0STkKOR9Bxmf/NqUYjrKMUCgYEA
+xwIOeWfuJImswbMS1DjLw4eJdm6iZm2lV/zMZ8qc5EvmGULPPNKckqjbnPxYDy63
+brDFLxF4/+vSYO6tzAgxaOHsIgZneK5vXp7jFmlEY3jnXv2PVHsG2vkcKL2sowHf
+CRd5ZYUVt1/3u+99qlyu2HEqWoEBBc3NDrdvskjcxBECgYAn5UqCTW8mIQ9D8i1m
+D1MjqTy+lK2FklVbghbyFyOTtO6Nqu71LquO0GNwN21iLgkyQgMObjRkwocCc4SK
+KuAfA4+j0mul41dBJtxvFUqB98Ksev71NDJfgai1497M4VT3mM9JYwSO8Iy163mj
+Uu5gAhE8p+l04QfIax0QN1ed8Q==
 
       # - TRUST_PROXY=0
       # - TOKEN_EXPIRES_IN=365 # In days
