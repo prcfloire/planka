@@ -8,8 +8,8 @@ services:
       - user-avatars:/app/public/user-avatars
       - project-background-images:/app/public/project-background-images
       - attachments:/app/private/attachments
-    ports:
-      - 3000:1337
+    #ports:
+    #  - 3000:1337
     environment:
       - BASE_URL=https://planka-prcf.onrender.com
       - DATABASE_URL=postgresql://planka_db_tu9p_user:IWZkYxUReqQjVf4M37tfRCPs9CZ8HSV9@dpg-cvrrvdjuibrs73bpgt00-a.frankfurt-postgres.render.com/planka_db_tu9p
