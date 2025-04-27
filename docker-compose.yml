@@ -15,7 +15,8 @@ services:
        - DATABASE_URL=postgresql://planka_db_zis5_user:7ik3wZdnXzpJ2u7X8EPamquUzZCwbVRf@dpg-d0792bjuibrs73f9cri0-a.frankfurt-postgres.render.com/planka_db_zis5
       - DEFAULT_ADMIN_EMAIL=prcf.loire@gmail.com
       - DEFAULT_ADMIN_PASSWORD=19171991l3n1n
-      - DEFAULT_ADMIN_USERNAME=adminLenin
+      - DEFAULT_ADMIN_USERNAME=adminprcf
+      - DEFAULT_ADMIN_NAME=PRCF_Loire
       - NODE_ENV=development
       - PGSSLMODE=require
       - SECRET_KEY=MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDe6S6EXlgmfSl2
