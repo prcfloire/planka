@@ -12,7 +12,7 @@ services:
     #  - 3000:1337
     environment:
       - BASE_URL=https://planka-prcf.onrender.com
-      - DATABASE_URL=postgresql://planka_db_tu9p_user:IWZkYxUReqQjVf4M37tfRCPs9CZ8HSV9@dpg-cvrrvdjuibrs73bpgt00-a.frankfurt-postgres.render.com/planka_db_tu9p
+       - DATABASE_URL=postgresql://planka_db_zis5_user:7ik3wZdnXzpJ2u7X8EPamquUzZCwbVRf@dpg-d0792bjuibrs73f9cri0-a.frankfurt-postgres.render.com/planka_db_zis5
       - DEFAULT_ADMIN_EMAIL=prcf.loire@gmail.com
       - DEFAULT_ADMIN_PASSWORD=19171991l3n1n
       - DEFAULT_ADMIN_USERNAME=adminLenin
