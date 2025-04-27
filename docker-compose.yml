@@ -13,6 +13,7 @@ services:
     environment:
       - BASE_URL=https://planka-prcf.onrender.com
       - DATABASE_URL=postgresql://planka_db_tu9p_user:IWZkYxUReqQjVf4M37tfRCPs9CZ8HSV9@dpg-cvrrvdjuibrs73bpgt00-a.frankfurt-postgres.render.com/planka_db_tu9p
+      - NODE_ENV=development
       - SECRET_KEY=MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDe6S6EXlgmfSl2
 TKctJEtCaDq/OzYDXjLNd+8/LTh20gH6aCcyqciODkhLo0BFpOTr+H8Us76ECl/1
 YSj+ozRrrWtlvd6Tl0IrqG+pzzcELE+Q2ea7wOICflfI9jakqtq1hSGesr2lEa2i
